@@ -1,28 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../app/home";
-import AboutUs from "../pages/aboutUs";
-import ContactPage from "../pages/contactUs";
-import Projects from "../pages/projects";
-import PipeColdCutting from "../pages/pipeColdCutting";
-import SSD from "../pages/specialityServiceDivision";
-import MED from "../pages/mechanicalDivision";
-import Piping from "../pages/meDivision/piping";
-import EquipmentErection from "../pages/meDivision/equipmentErection";
-import SteelStructure from "../pages/meDivision/steelStructure";
-import PreEngineeredBuildings from "../pages/meDivision/preEngBuildings";
-import ValvesAndInstruments from "../pages/meDivision/valvesAndInstruments";
-import CoatingPainting from "../pages/ssDivision/coatingPainting";
-import ThermalAcousticInsulation from "../pages/ssDivision/thermalAcousticInsulation";
-import FireProofing from "../pages/ssDivision/fireProofing";
-import ScaffoldingServices from "../pages/ssDivision/scaffoldingServices";
-import RefractoryServices from "../pages/ssDivision/refractoryWorks";
-import WaterProofing from "../pages/ssDivision/waterProofing";
-import ElectricalHeatTracing from "../pages/ssDivision/electricalHeatTracing";
-import IndustrialMaterialSupply from "../pages/industrialMaterialSupply";
-import OurServices from "../pages/ourServices";
-import Page404 from "../pages/page404";
-
-
+// import Page404 from "../app/page404";
 export default function UserRoute() {
   return (
     <Routes>
@@ -49,7 +27,7 @@ export default function UserRoute() {
       <Route path="speciality-service-division/electrical-heat-tracing" element={<ElectricalHeatTracing />} />
       <Route path="industrial-materials-supply" element={<IndustrialMaterialSupply />} />
       <Route path="*" element={<Page404 />} /> */}
-      <Route path="*" element={<Page404 />} />
+      {/* <Route path="*" element={<Page404 />} /> */}
     </Routes>
   );
 }
