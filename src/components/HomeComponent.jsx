@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { img } from "framer-motion/client";
 import { Clock, TrendingUp } from "lucide-react";
 
 const HomeComponent = () => {
@@ -95,7 +96,15 @@ const HomeComponent = () => {
               repeat: Number.POSITIVE_INFINITY,
               ease: "easeInOut",
             }}
+          
           >
+            <img
+              src="/images/polimetricLogo.png"
+              alt="POLIMETRIC Logo"
+              width={450}
+              height={150}
+              className="mb-4"
+            />  
             COMING SOON
           </motion.h1>
           <motion.div
