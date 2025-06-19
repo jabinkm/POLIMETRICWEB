@@ -87,7 +87,7 @@ const HomeComponent = () => {
             <Clock className="w-8 h-8 text-orange-500" />
           </motion.div>
           <motion.h1
-            className="text-4xl font-bold text-gray-800"
+            className="text-6xl font-bold text-gray-800"
             animate={{
               color: ["#1f2937", "#f59e0b", "#1f2937"],
             }}
